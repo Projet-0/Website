@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";/* CSS Document */
+html{
+	color:#000;
+	background:#FFF;
+}
+
+#header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between; 
+    margin: 5px 15px 0px 50px;
+    border: red;
+    border-radius: 5px;
+    border-style: dotted;
+
+}
+
+
+#main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; /*On doit passer par un autre truc jpense*/   
+	width: 100%;
+    border: red;
+    border-radius: 5px;
+    border-style: dotted;	
+}
+
+.menu {
+    width: 15%;
+    border: red;
+    border-radius: 5px;
+    border-style: dotted;
+    align-items: center ; /*Jsuis pas sur de ça*/
+
+}
+
+
+#left {
+    padding: 15px; 
+    color: aqua;
+    background-color: teal;
+}
+
+#left > ul {
+    border: red;
+    border-radius: 2px;
+    border-style: dotted;
+
+}
+
+
+#center {
+    background-color: white;
+    /*Prblm vu qu'on se place en justify items space-between, on occupe le plus de place possible sur la feuille donc ça impose des espaces*/
+}
+
+
+#center > p {
+    background-color: maroon;
+    color: green;
+
+}
+
+#center > ul > li >sub { /*On va aller cibler les chifffres*/
+    color: red;
+
+}
+
+
+
+#right {
+    color: white;
+    background-color: purple;
+    font-size: 20px;
+}
+
